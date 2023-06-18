@@ -1,0 +1,347 @@
+body{
+    background: #244035;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.welcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:  100%;
+    color: white;
+    background-color: #183425;
+    padding-bottom: 20px;
+}
+.welcome_user{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    margin-top: 0px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    align-items: center;
+}
+nav{
+    background-color: #183425;
+    font-family: 'Ramaraja';
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.nav-item {
+    float: left;
+    font-size:30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.navbar{
+    background-color: #183425;
+    font-family: 'Ramaraja';
+    width: 100%;
+    float: left;
+}
+.rightnav {
+    float: right;
+    padding: 6px;
+    margin-top: 10px;
+    margin-right: 16px;
+    border: none;
+    font-size: 30px;
+}
+/* .rightnav a{
+    margin: 20px;
+    text-decoration: none;
+    color: white;
+    width: 122;
+} */
+.d-flex button{
+    background-color: #B88614;
+    border-radius: 180px;
+    color: white;
+}
+
+.contentAbout{
+    display: flex;
+    flex-direction:column;
+    font-family: 'Ramaraja';
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px;
+}
+.judul{
+    margin: 50px;
+}
+.isi{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.VM{
+    max-width:50%;
+}
+.Founder{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+.Founder1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Founder2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.FounderImg{
+    display: flex;
+}
+.Moto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+}
+.content2{
+    display: flex;
+    flex-direction: row;
+    background-color: #244035;
+    align-items:flex-start;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.contentMenu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-family: 'Montserrat';
+}
+.JudulContentMenu{
+    margin: 50px;
+}
+.IsiContentMenu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+}
+.ContentMenuBaris1{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+.ContentMenuBaris2{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+.card{
+    --bs-card-bg: #b88614;
+    color: white;
+}
+.card-title{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.ContentPrice{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-family:'Montserrat';
+}
+.JudulContentPrice{
+    margin: 50px;
+}
+.IsiContentPrice{
+    display: flex;
+}
+.MenuContentPrice{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 50px;
+    background-color: #B88614;
+}
+.MenuContentPriceHarga{
+    display: flex;
+    justify-content: space-around;
+}
+.JumlahContentPrice{
+    padding: 15px;
+}
+span{
+    color: #183425;
+}
+.fillmeup{
+    font-family: 'Montserrat';
+    font-style:italic;
+    font-weight:900;
+    color: white;
+}
+.h2, h2 {
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.fillmeup b{
+    margin-left: 10px;
+}
+.NamaPhoneEmail{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    justify-content: space-around;
+}
+.AlamatButton{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.alamatemail{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    justify-content: space-around;
+}
+.alamatkanan button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    background-color: #B88614;
+    color: white;
+    border-radius: 180px;
+    float: right;
+}
+
+input, optgroup, select, textarea {
+    width: 200px;
+}
+.line{
+    display: flex;
+    justify-content: center;
+}
+hr{
+    opacity: 1;
+    width: 80%;
+    color: white;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+.footer .kanan{
+    display:flex;
+    flex-direction: row;
+    color: white;
+    background-color: #244035;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Montserrat';
+    font-weight: 100;
+}
+.footer .kiri{
+    display:flex;
+    flex-direction: row;
+    color: white;
+    background-color: #244035;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Montserrat';
+    font-weight: 100;
+}
+.bg-body-tertiary {
+    background-color: #183425;
+}
+.navbar-nav me-auto mb-2 mb-lg-0{
+    justify-content: flex-end;
+}
+.navbar-toggler {
+    background-color: #B88614;
+}
+.navbar-nav {
+    --bs-nav-link-color: #fff;
+}
+.coba{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+.motofooter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.motofooter p{
+    margin: 0px;
+}
+
+@media screen and (max-width: 414px){
+    .isi{
+        display: flex;
+        flex-direction: column;
+    }
+    .VM{
+        max-width:100%;
+    }
+    .ContentMenuBaris1{
+        display: flex;
+        flex-direction: column;
+    }
+    .IsiContentPrice{
+        display: flex;
+        flex-direction: column;
+    }
+    .fillmeup{
+        display: flex;
+        font-family: 'Montserrat';
+        font-style:italic;
+        font-weight: 400;
+        color: white;
+        justify-content:center;
+    }
+    .footer{
+        display:flex;
+        flex-direction: column;
+        color: white;
+        background-color: #244035;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+        font-family: 'Montserrat';
+        font-weight: 100;
+    }
+    .content2{
+        display: flex;
+        flex-direction: column;
+        background-color: #244035;
+        align-items:center;
+        width: 100%;
+        justify-content: space-around;
+        margin-top: 30px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .nav-item {
+        float: left;
+        font-size:20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}

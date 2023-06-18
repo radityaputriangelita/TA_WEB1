@@ -1,0 +1,165 @@
+body{
+    background: #244035;
+    align-items: center;
+    width: 100%;
+}
+.bg-img {
+    background-image: url("foto/foodLogin.jpg");
+    background-size: cover;
+    background-position: center;
+    min-width: 100%;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.container h1,h4, p{
+    text-align: center;
+}
+.container {
+    margin: 20px auto;
+    max-width: 300px;
+    padding: 16px;
+    background-color: white;
+  }
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  .btn {
+    background-color: #B88614;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+nav{
+    background-color: #183425;
+    font-family: 'Ramaraja';
+    width: 100%;
+}
+.nav-item {
+    float: left;
+    font-size:30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.navbar{
+    background-color: #183425;
+    font-family: 'Ramaraja';
+    width: 100%;
+    float: left;
+}
+.rightnav {
+    float: right;
+    padding: 6px;
+    margin-top: 10px;
+    margin-right: 16px;
+    border: none;
+    font-size: 30px;
+}
+.d-flex button{
+    background-color: #B88614;
+    border-radius: 180px;
+    color: white;
+}
+.line{
+    display: flex;
+    justify-content: center;
+}
+hr{
+    opacity: 1;
+    width: 80%;
+    color: white;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+.footer .kanan{
+    display:flex;
+    flex-direction: row;
+    color: white;
+    background-color: #244035;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Montserrat';
+    font-weight: 100;
+}
+.footer .kiri{
+    display:flex;
+    flex-direction: row;
+    color: white;
+    background-color: #244035;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Montserrat';
+    font-weight: 100;
+}
+.bg-img{
+    background-image: url("foto/NEVER\ FOR\ \(2880\ ×\ 1200\ px\).png");
+    min-width: 100%;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+
+}
+.bg-body-tertiary {
+    background-color: #183425;
+}
+.navbar-nav me-auto mb-2 mb-lg-0{
+    justify-content: flex-end;
+}
+.navbar-toggler {
+    background-color: #B88614;
+}
+.navbar-nav {
+    --bs-nav-link-color: #fff;
+}
+.coba{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+.motofooter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.motofooter p{
+    margin: 0px;
+}
+
+@media screen and (max-width: 414px){
+    .footer{
+        display:flex;
+        flex-direction: column;
+        color: white;
+        background-color: #244035;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+        font-family: 'Montserrat';
+        font-weight: 100;
+    }
+    .nav-item {
+        float: left;
+        font-size:20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
